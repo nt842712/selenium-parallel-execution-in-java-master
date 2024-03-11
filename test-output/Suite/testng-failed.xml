@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="1" parallel="tests" name="checkout-safari(failed)">
+    <parameter name="password" value="Ebay0007"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="userName" value="virgil.jenkins@rediffmail.com"/>
+    <classes>
+      <class name="com.ebay.tests.CheckoutTest">
+        <methods>
+          <include name="checkoutItems" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ebay.tests.CheckoutTest -->
+    </classes>
+  </test> <!-- checkout-safari(failed) -->
+</suite> <!-- Failed suite [Suite] -->
